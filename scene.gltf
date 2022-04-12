@@ -3,187 +3,131 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 5942,
+      "count": 559,
       "max": [
-        15.980299949645996,
-        3.5290999412536621,
-        9.5257997512817383
+        1.000000238418579,
+        1.0,
+        1.0000003576278687
       ],
       "min": [
-        -17.356899261474609,
-        -3.5290999412536621,
-        -10.083900451660156
+        -0.9999998211860657,
+        -1.0,
+        -1.0
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 71304,
+      "byteOffset": 6708,
       "componentType": 5126,
-      "count": 5942,
+      "count": 559,
       "max": [
-        1,
-        1,
-        1
+        1.0,
+        1.0,
+        1.0
       ],
       "min": [
-        -1,
-        -1,
-        -1
+        -1.0,
+        -1.0,
+        -1.0
       ],
       "type": "VEC3"
     },
     {
-      "bufferView": 3,
-      "componentType": 5126,
-      "count": 5942,
-      "max": [
-        1,
-        1,
-        1,
-        1
-      ],
-      "min": [
-        -1,
-        -1,
-        -1,
-        -1
-      ],
-      "type": "VEC4"
-    },
-    {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 5942,
+      "count": 559,
       "max": [
-        0.99720001220703125,
-        0.99309998750686646
+        1.000000238418579,
+        1.0
       ],
       "min": [
-        0.00139999995008111,
-        0.0034000000450760126
+        0.0,
+        0.0
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 15234,
-      "max": [
-        5941
-      ],
-      "min": [
-        0
-      ],
+      "count": 2880,
       "type": "SCALAR"
     }
   ],
   "asset": {
     "extras": {
-      "author": "TonyGalindo3d (https://sketchfab.com/tonygalindo3d)",
+      "author": "fangzhangmnm (https://sketchfab.com/fangzhangmnm)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/3d-models/nerf-gun-free-download-b2e427074c894a5197bbc02666d685fd",
-      "title": "Nerf Gun - Free Download!"
+      "source": "https://sketchfab.com/3d-models/anime-starry-night-db0952ccd1ee4c77a1a07709b3d4f4f0",
+      "title": "Anime Starry Night"
     },
-    "generator": "Sketchfab-7.57.0",
+    "generator": "Sketchfab-12.66.0",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 60936,
-      "byteOffset": 0,
+      "byteLength": 11520,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 47536,
-      "byteOffset": 60936,
+      "byteLength": 4472,
+      "byteOffset": 11520,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 142608,
-      "byteOffset": 108472,
+      "byteLength": 13416,
+      "byteOffset": 15992,
       "byteStride": 12,
-      "name": "floatBufferViews",
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 95072,
-      "byteOffset": 251080,
-      "byteStride": 16,
       "name": "floatBufferViews",
       "target": 34962
     }
   ],
   "buffers": [
     {
-      "byteLength": 346152,
+      "byteLength": 29408,
       "uri": "scene.bin"
     }
   ],
+  "extensionsUsed": [
+    "KHR_materials_unlit"
+  ],
   "images": [
     {
-      "uri": "textures/01___Default_baseColor.png"
-    },
-    {
-      "uri": "textures/01___Default_metallicRoughness.png"
-    },
-    {
-      "uri": "textures/01___Default_normal.png"
+      "uri": "textures/Material.001_baseColor.png"
     }
   ],
   "materials": [
     {
       "doubleSided": true,
-      "emissiveFactor": [
-        0,
-        0,
-        0
-      ],
-      "name": "01___Default",
-      "normalTexture": {
-        "index": 2,
-        "scale": 1,
-        "texCoord": 0
+      "extensions": {
+        "KHR_materials_unlit": {}
       },
+      "name": "Material.001",
       "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          1,
-          1,
-          1,
-          1
-        ],
         "baseColorTexture": {
-          "index": 0,
-          "texCoord": 0
+          "index": 0
         },
-        "metallicFactor": 1,
-        "metallicRoughnessTexture": {
-          "index": 1,
-          "texCoord": 0
-        },
-        "roughnessFactor": 1
+        "metallicFactor": 0.0
       }
     }
   ],
   "meshes": [
     {
-      "name": "NerfGun_01___Default_0",
+      "name": "Sphere_Material.001_0",
       "primitives": [
         {
           "attributes": {
             "NORMAL": 1,
             "POSITION": 0,
-            "TANGENT": 2,
-            "TEXCOORD_0": 3
+            "TEXCOORD_0": 2
           },
-          "indices": 4,
+          "indices": 3,
           "material": 0,
           "mode": 4
         }
@@ -195,77 +139,83 @@
       "children": [
         1
       ],
-      "name": "RootNode (gltf orientation matrix)",
-      "rotation": [
-        -0.70710678118654746,
-        -0,
-        -0,
-        0.70710678118654757
-      ]
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
     },
     {
       "children": [
         2
       ],
-      "name": "RootNode (model correction matrix)"
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "d38186a23aa74e9db13b64855444b1bb.fbx"
     },
     {
       "children": [
         3
       ],
-      "matrix": [
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        -1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1
-      ],
-      "name": "eb9f03128af54088b2ee19c628355c10.fbx"
+      "name": "RootNode"
     },
     {
       "children": [
         4
       ],
-      "name": "RootNode"
-    },
-    {
-      "children": [
-        5
-      ],
       "matrix": [
-        1,
-        0,
-        0,
-        0,
-        0,
-        2.2204460492503131e-16,
-        -1,
-        0,
-        0,
-        1,
-        2.2204460492503131e-16,
-        0,
-        0,
-        0,
-        0,
-        1
+        500.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        499.99999999999335,
+        8.146034247147293e-05,
+        0.0,
+        0.0,
+        -8.146034247147293e-05,
+        499.99999999999335,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
       ],
-      "name": "NerfGun"
+      "name": "Sphere"
     },
     {
       "mesh": 0,
-      "name": "NerfGun_01___Default_0"
+      "name": "Sphere_Material.001_0"
     }
   ],
   "samplers": [
@@ -279,7 +229,7 @@
   "scene": 0,
   "scenes": [
     {
-      "name": "OSG_Scene",
+      "name": "Sketchfab_Scene",
       "nodes": [
         0
       ]
@@ -289,15 +239,6 @@
     {
       "sampler": 0,
       "source": 0
-    },
-    {
-      "sampler": 0,
-      "source": 1
-    },
-    {
-      "sampler": 0,
-      "source": 2
     }
   ]
 }
-
