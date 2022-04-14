@@ -1,0 +1,11 @@
+Model Information:
+* title:	AK-103 - Game Ready Assault Rifle Weapon
+* source:	https://sketchfab.com/3d-models/ak-103-game-ready-assault-rifle-weapon-21b2e86d257246639ce187b904d124c8
+* author:	bogdanzloy20280 (https://sketchfab.com/bogdanzloy20280)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "AK-103 - Game Ready Assault Rifle Weapon" (https://sketchfab.com/3d-models/ak-103-game-ready-assault-rifle-weapon-21b2e86d257246639ce187b904d124c8) by bogdanzloy20280 (https://sketchfab.com/bogdanzloy20280) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
